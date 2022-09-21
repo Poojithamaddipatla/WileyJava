@@ -24,12 +24,12 @@ public class Employee {
 	public String toString() {
 		return "Employee [empId=" + empId + ", empName=" + empName + ", empDept=" + empDept + "]";
 	}
-	@Override
-	public boolean equals(Object obj) {
-		Employee other = (Employee) obj;
-		return empId == other.empId && Objects.equals(empName, other.empName);
-	}
-	
-	
+//	@Override
+//	public boolean equals(Object obj) {
+//		Employee other = (Employee) obj;
+//		return empId == other.empId && Objects.equals(empName, other.empName);
+//	}
+//	
+//	
 	
 }
